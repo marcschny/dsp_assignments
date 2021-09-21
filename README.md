@@ -78,7 +78,7 @@ $ git clone MY_REPO_FORK
 $ docker run -d \
     -p 8877:8888 \
     --user root \
-    -v MY_DSP_DIR:/home/jovyan/
+    -v MY_DSP_DIR:/home/jovyan/work/ \
     --name=dsp_hs2021 \
     cr.gitlab.fhnw.ch/ml/courses/dsp/dsp_hs2021:v20210917 start.sh jupyter lab --LabApp.token=''
 ```
