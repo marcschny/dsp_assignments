@@ -3,8 +3,8 @@
 This repository is the training and development environment for the course
 'Einführung in Data Science mit Python', held in fall semester 2021.
 
-You have two options to work in standardized Data Science software stack for
-this course:
+You have two options to work in our standardized Data Science software stack
+for this course. **Only what's running through A-Z in this stack will be graded.**
 1. Set up your own environment using docker (recommended).
 2. Use [https://jhub.cs.technik.fhnw.ch](https://jhub.cs.technik.fhnw.ch),
    image `sgi_dsp_hs2021`
