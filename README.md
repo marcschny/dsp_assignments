@@ -3,9 +3,11 @@
 This repository is the training and development environment for the course
 'Einführung in Data Science mit Python', held in fall semester 2021.
 
-You have two options to work in standardized Data Science software stack for this course:
+You have two options to work in standardized Data Science software stack for
+this course:
 1. Set up your own environment using docker (recommended).
-2. Use [https://jhub.cs.technik.fhnw.ch](https://jhub.cs.technik.fhnw.ch), Image `sgi_dsp_hs2021`
+2. Use [https://jhub.cs.technik.fhnw.ch](https://jhub.cs.technik.fhnw.ch),
+   image `sgi_dsp_hs2021`
 
 For option 1, follow the instructions from beginning to end.  
 
@@ -50,16 +52,20 @@ $ docker pull cr.gitlab.fhnw.ch/ml/courses/dsp/dsp_hs2021:v20210917
 
 ### 3. Fork this repository
 
-Fork this repository to your own user space by pressing the fork button on the upper right.
+Fork this repository to your own user space by pressing the fork button on the
+upper right.
 
-Add @michael.graber as a maintainer to your fork. If you don't do this I won't see your submissions.
+Add `@michael.graber` and `@florian.schaerer` as a maintainer to your fork. If
+you don't do this I won't see your submissions.
 
 
 ### 4. Clone your fork to your computer. 
 
-For this you might wanna set up a ssh-key for your computer, see here: https://docs.gitlab.com/ee/ssh/
+For this you might wanna set up a ssh-key for your computer, see here:
+https://docs.gitlab.com/ee/ssh/
 
-In your fork on GitLab find the address with which you can clone your Repo. Clone into your dsp directory (MY_DSP_DIR) using:
+In your fork on GitLab find the address with which you can clone your Repo.
+Clone into your dsp directory (MY_DSP_DIR) using:
 
 ```
 $ git clone MY_REPO_FORK
